@@ -7,4 +7,4 @@ Cara Penggunaan
 ------------------
 
 jalankan perintah berikut untuk mengaktifkan layout:
-composer idar --working-dir=./vendor/idarlabs/yii2-admlte3
+"composer idar --working-dir=./vendor/idarlabs/yii2-admlte3"
