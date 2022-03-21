@@ -6,5 +6,5 @@ Template Admin Dashboard - AdminLte versi 3 untuk kerangka-kerja php Yii2
 Cara Penggunaan
 ------------------
 
-jalankan perintah berikut untuk mengaktifkan layout:
+jalankan perintah berikut untuk mengaktifkan layout:<br>
 "composer idar --working-dir=./vendor/idarlabs/yii2-admlte3"
