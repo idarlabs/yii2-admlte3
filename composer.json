@@ -19,10 +19,18 @@
     },
     "scripts": {
       "post-install-cmd": [
-          "@idar"
+        "@idar-basic",
+    	  "@idar-af",
+    	  "@idar-ab"
       ],
-      "idar": [
-          "mv ../../../views/layouts ../../../views/layouts_ && cp -r src/layouts ../../../views/"
+      "idar-basic": [
+        "mv ../../../views/layouts ../../../views/layouts_ && cp -r src/layouts ../../../views/"
+      ],
+      "idar-af": [
+        "mv ../../../frontend/views/layouts ../../../frontend/views/layouts_ && cp -r src/layouts ../../../frontend/views/layouts"
+      ],
+      "idar-ab": [
+        "mv ../../../backend/views/layouts ../../../backend/views/layouts_ && cp -r src/layouts ../../../backend/views/layouts"
       ]
     }
 }
