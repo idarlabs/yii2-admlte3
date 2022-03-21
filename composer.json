@@ -1,0 +1,20 @@
+{
+    "name": "idarlabs/yii2-admlte3",
+    "description": "Template Admin Dashboard - AdminLte versi 3 untuk kerangka-kerja php Yii2",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "idarlabs\\Yii2Admlte3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darmawan Ramadana,S.Kom",
+            "email": "idarlabs@gmail.com"
+        }
+    ],
+    "require": {
+      "php": "> 7.2"
+    }
+}

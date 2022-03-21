@@ -1,0 +1,19 @@
+/* Modified By Darmawan Ramadana,S.Kom */
+
+body{
+  background: #f4f6f8;
+}
+.select2-size-sm{
+  width: 50%;
+  margin: auto;
+}
+.content-wrapper{
+  padding:0px 15px;
+}
+.kosong{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.help-block {
+  color: red;
+}
