@@ -16,5 +16,13 @@
     ],
     "require": {
       "php": "> 7.2"
+    },
+    "scripts": {
+      "post-install-cmd": [
+          "@idar"
+      ],
+      "idar": [
+          "mv ../../../views/layouts ../../../views/layouts_ && cp -r src/layouts ../../../views/"
+      ]
     }
 }
